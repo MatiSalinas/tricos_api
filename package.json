@@ -1,0 +1,17 @@
+{
+  "name": "tricos_api",
+  "version": "1.0.0",
+  "description": "Api para tricos",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file=.env --watch src/app.js"
+  },
+  "author": "Matias Salinas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
